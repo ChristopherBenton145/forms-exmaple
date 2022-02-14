@@ -1,0 +1,58 @@
+body {
+  background: url("/images/pexels-vlad-bagacian-1061640.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Redressed', cursive;
+  margin: 0;
+}
+
+header h1 {
+    color: rgb(0, 255, 42);
+    animation: header-fade-in 1s forwards;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+header h1::before {
+  content: "🏕️  ";
+  width: 20px;
+  height: 20px;
+}
+  
+header h1::after {
+  content: " 🏕️";
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes header-fade-in {
+  0% {
+    transform: translateY(-200px);
+  }
+  
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes button-hover-left {
+  0% {
+    background: white;
+  }
+  
+  100% {
+    background: white;
+    margin-right: 30px;
+  }
+}
+  
+@keyframes button-hover-right {
+  0% {
+    background: white;
+  }
+  
+  100% {
+    background: white;
+    margin-left: 30px;
+  }
+}
