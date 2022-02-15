@@ -1,6 +1,6 @@
 # Summary
 
-This is a basic forms project built in with HTML and CSS.
+This is a basic forms project built with HTML and CSS.
 
 ## How to run the project.
 
